@@ -1,0 +1,601 @@
+/* =================== Extra Small Responsive Css Part Start =================== */
+
+@media (max-width: 575.98px) {
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .serv .active:after {
+        display: none;
+    }
+    
+    .navbar-nav li a::after {
+        display: none;
+    }
+
+    .news {
+        margin: 0;
+    }
+
+    .account {
+        margin-left: 0;
+    }
+
+    .line {
+        display: none;
+    }
+
+    #banner h1 {
+        width: 100%;
+        font-size: 37px;
+        text-align: center;
+    }
+
+    #banner p {
+        width: 100%;
+        font-size: 12px;
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    #banner .buttons {
+        padding-top: 20px;
+    }
+
+    #banner .buttons a {
+        width: 100%;
+        font-size: 12px;
+        transition: none;
+    }
+
+    .banner_img img{
+        width: 100%;
+    }
+
+    .banner_img .three {
+        right: 270px;
+    }
+
+    .hosting_info h2 {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .hosting_info p {
+        width: 100%;
+        margin-top: 10px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .hostCompany_link {
+        padding-top: 0px;
+        margin-left: 0px;
+        justify-content: center;
+    }
+
+    .hostCompany_link a {
+        width: 100px;
+        height: 20px;
+        transition: none;
+    }
+
+    .hostCompany_link a img{
+        width: 100px;
+    }
+
+    .service {
+        gap: 20px;
+    }
+
+    #package {
+        margin-top: 35px;
+    }
+
+    .package_info h3 {
+        width: 100%;
+        font-size: 27px;
+    }
+
+    .package_info p {
+        font-size: 15px;
+        padding: 20px 0;
+    }
+
+    .tier {
+        gap: 10px;
+        width: 100%;
+    }
+
+    .selection .slideBall {
+        width: 28px;
+        height: 28px;
+    }
+
+    .tier .selection {
+        width: 90px;
+        height: 45px;
+    }
+
+    .cetagoryButton {
+        gap: 25px;
+    }
+
+    .cetagoryButton button:active{
+        color: #b00000;
+    }
+
+    .slideLine {
+        display: none;
+    }
+
+    .monthlyBasic {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    #stories .container{
+       display: none;
+    }
+
+    .contactArea{
+        width: 100%;
+    }
+
+    .contactArea h5 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    footer {
+        width: 100%;
+        padding-top: 35px;
+        padding-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    footer .copyright {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    footer .links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .row{
+        gap: 30px;
+    }
+
+    footer a {
+        margin-top: 0px;
+        transition: none;
+    }
+}
+
+/* =================== Extra Small Responsive Css Part End =================== */
+
+/* =================== Small Responsive Css Part Start =================== */
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .serv .active:after {
+        display: none;
+    }
+    
+    .navbar-nav li a::after {
+        display: none;
+    }
+
+    .news {
+        margin: 0;
+    }
+
+    .account {
+        margin-left: 0;
+    }
+
+    .line {
+        display: none;
+    }
+
+    #banner h1 {
+        width: 100%;
+        font-size: 37px;
+        text-align: center;
+    }
+
+    #banner p {
+        width: 100%;
+        font-size: 12px;
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    #banner .buttons {
+        padding-top: 20px;
+    }
+
+    #banner .buttons a {
+        width: 100%;
+        font-size: 12px;
+        transition: none;
+    }
+
+    .banner_img img{
+        width: 100%;
+    }
+
+    .banner_img .three {
+        right: 270px;
+    }
+
+    .hosting_info h2 {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .hosting_info p {
+        width: 100%;
+        margin-top: 10px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .hostCompany_link {
+        padding-top: 0px;
+        margin-left: 0px;
+        justify-content: center;
+    }
+
+    .hostCompany_link a {
+        width: 100px;
+        height: 20px;
+        transition: none;
+    }
+
+    .hostCompany_link a img{
+        width: 100px;
+    }
+
+    .service {
+        gap: 20px;
+    }
+
+    #package {
+        margin-top: 35px;
+    }
+
+    .package_info h3 {
+        width: 100%;
+        font-size: 27px;
+    }
+
+    .package_info p {
+        font-size: 15px;
+        padding: 20px 0;
+    }
+
+    .cetagoryButton {
+        gap: 25px;
+    }
+
+    .cetagoryButton button:active{
+        color: #b00000;
+    }
+
+    .slideLine {
+        display: none;
+    }
+
+    .monthlyBasic {
+        align-items: center;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    #stories .container{
+       display: none;
+    }
+
+    .contactArea{
+        width: 100%;
+    }
+
+    .contactArea h5 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    footer {
+        width: 100%;
+        padding-top: 35px;
+        padding-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    footer .copyright {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    footer .links{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer .row{
+        gap: 30px;
+    }
+
+    footer a {
+        margin-top: 0px;
+        transition: none;
+    }
+
+    footer .links {
+        width: 110px;
+    }
+}
+
+/* =================== Small Responsive Css Part End =================== */
+
+/* =================== Medium Responsive Css Part Start =================== */
+
+@media(min-width:768px) and (max-width: 991.98px){
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .serv .active:after {
+        display: none;
+    }
+    
+    .navbar-nav li a::after {
+        display: none;
+    }
+
+    .news {
+        margin: 0;
+    }
+
+    .account {
+        margin-left: 0;
+    }
+
+    .line {
+        display: none;
+    }
+
+    #banner h1 {
+        width: 100%;
+        font-size: 37px;
+        text-align: center;
+    }
+
+    #banner p {
+        width: 100%;
+        font-size: 12px;
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    #banner .buttons {
+        padding-top: 20px;
+    }
+
+    #banner .buttons a {
+        width: 100%;
+        font-size: 12px;
+        transition: none;
+    }
+
+    .banner_img img{
+        width: 100%;
+    }
+
+    .banner_img .three {
+        right: 670px;
+    }
+
+    .hosting_info h2 {
+        width: 100%;
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .hosting_info p {
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .hostCompany_link {
+        padding-top: 0px;
+        margin-left: 0px;
+        justify-content: center;
+    }
+
+    .hostCompany_link a {
+        transition: none;
+    }
+
+    .hostCompany_link a img{
+        width: 100px;
+    }
+
+    .service {
+        gap: 20px;
+    }
+
+    #package {
+        margin-top: 35px;
+    }
+
+    .package_info h3 {
+        width: 100%;
+        font-size: 27px;
+    }
+
+    .package_info p {
+        font-size: 15px;
+        padding: 20px 0;
+    }
+
+    .cetagoryButton {
+        gap: 25px;
+    }
+
+    .cetagoryButton button:active{
+        color: #b00000;
+    }
+
+    .slideLine {
+        display: none;
+    }
+
+    .monthlyBasic {
+        gap: 10px;
+    }
+
+    .monthlyBasic button {
+        width: 160px;
+        transition: all linear 0.1s;
+    }
+
+    #stories .container{
+       display: none;
+    }
+
+    .contactArea{
+        width: 100%;
+    }
+
+    .contactArea h5 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    footer {
+        width: 100%;
+        padding-top: 35px;
+        padding-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    footer .copyright {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    footer .row{
+        gap: 30px;
+    }
+
+    footer a {
+        margin-top: 0px;
+        transition: none;
+    }
+
+    footer .links {
+        width: 150px;
+    }
+}
+
+/* =================== Medium Responsive Css Part End =================== */
+
+/* =================== Large Responsive Css Part Start =================== */
+
+@media(min-width: 992px) and (max-width: 1199.98px){
+
+    .serv {
+        margin-right: 35px;
+    }
+
+    .account {
+        margin-left: 20px;
+    }
+
+    #banner h1 {
+        width: 400px;
+        font-size: 40px;
+    }
+
+    #banner p {
+        width: 400px;
+    }
+
+    .banner_img {
+        transform: translateY(-400px);
+    }
+
+    #hosting {
+        margin-top: -300px;
+    }
+
+    .service {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .hostCompany_link {
+        justify-content: center;
+    }
+
+    #hosting .col-xxl-3{
+        width: 400px;
+    }
+
+    #stories {
+        display: none;
+    }
+
+    .links{
+        width: 200px;
+        margin-right: 40px;
+        margin-top: 20px;
+    }
+}
+
+/* =================== Large Responsive Css Part End =================== */
+
+/* =================== Extra Large Responsive Css Part Start =================== */
+
+@media(min-width: 1200px) and (max-width: 1399.98px){
+
+    .banner_img {
+        transform: translateY(-400px);
+    }
+
+    #hosting {
+        margin-top: -300px;
+    }
+
+    .hostCompany_link {
+        justify-content: center;
+    }
+
+    .service{
+        gap: 20px;
+    }
+
+    #hosting .col-xxl-3{
+        width: 550px;
+    }
+
+    .links{
+        width: 200px;
+        margin-right: 40px;
+        margin-top: 20px;
+    }
+}
+
+/* =================== Extra Large Responsive Css Part End =================== */
+
