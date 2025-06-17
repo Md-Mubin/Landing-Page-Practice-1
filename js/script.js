@@ -15,7 +15,7 @@ let supremName        = document.querySelector(".supremName")
 // --------- For Common Document
 let selection         = document.querySelector(".selection")
 let priceInfo         = document.querySelectorAll(".price")
-// --------- For Premium Default Look
+// --------- For Premium Default Look 
 premiumBtn                      .disabled = true
 premiumBtn                      .style = "opacity:0.1; cursor: not-allowed"
 
